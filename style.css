@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap');
+
+:root {
+    --main-font: 'Outfit', sans-serif;
+    --lightblue: var(--primary);
+    --primary: hsl(215, 51%, 70%);
+    --aqua: hsl(178, 100%, 50%);
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--mainBG);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white);
+    transition: all .4s ease-in-out;
+}
+
+a:hover {
+    color: var(--aqua);
+}
+
+p {
+    font-size: 18px;
+    color: var(--primary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin-top: 5rem;
+    width: 75%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px var(--cardBG);
+    border-radius: 15px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background-color: var(--cardBG);
+}
+
+.container__image {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    max-width: 32.75rem;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card__image {
+    background-image: url("images/image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 18.75rem;
+    width: 100%;
+}
+
+.color__image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 18.75rem;
+    height: auto;
+    background-image: none;
+}
+
+.color__image:hover {
+    background-image: url("images/icon-view.svg");
+    background-color: var(--aqua);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20% 20%;
+    opacity: 0.5;
+    transition: background-color ease-in-out 0.3s;
+}
+
+h1.card__title {
+    color: var(--white);
+    margin: 1rem 0;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+h1.card__title:hover {
+    transition: all .4s ease-in-out;
+    color: var(--aqua);
+}
+
+p.card__text {
+    color: var(--primary);
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.card__currency-box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 1rem;
+}
+
+.card__currency-box p:first-of-type {
+    color: var(--aqua);
+    font-weight: 600;
+}
+
+.card__currency-box img {
+    position: relative;
+    top: 2px;
+}
+
+/* CREATOR */
+.card__creator {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.card__creator img {
+    border: 1px solid white;
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card__creator p {
+    padding-left: 1rem;
+}
+
+.card__creator a {
+    transition: all .4s ease-in-out;
+}
+
+.attribution {
+    padding-bottom: 1rem;
+    text-align: center;
+    color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 40%;
+        transition: all .4s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        width: 33%;
+        margin: 3rem auto;
+        transition: all .4s ease-in-out;
+        max-width: 23rem;
+    }
+
+}
