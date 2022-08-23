@@ -1,3 +1,6 @@
+![preview_final](https://user-images.githubusercontent.com/43629739/186282092-720d0f71-8767-49f0-bdcd-6090525db9c7.png)
+
+
 <h1 align="center">NFT preview card component</h1>
 
 <div align="center">
@@ -19,7 +22,7 @@
 
 # Sobre o projeto
 
-Este desafio é ideal para iniciantes com HTML e CSS que queiram praticar as propriedades do Flexbox e também treinar a parte de responsiva do card, adaptando-a dem diferentes telas e dispositivos. O desafio era replicar o mais fielmente o design original, podendo utilizar qualquer ferramenta que souber trabalhar.
+Este desafio é ideal para iniciantes com HTML e CSS que queiram praticar as propriedades do Flexbox e também treinar a parte responsiva do card, adaptando-a dem diferentes telas. O desafio era replicar o mais fielmente o design original, podendo utilizar qualquer ferramenta que souber trabalhar.
 
 ## Construído com
 - HTML5
@@ -29,7 +32,6 @@ Este desafio é ideal para iniciantes com HTML e CSS que queiram praticar as pro
 ## O que aprendi
 
 O intuito do desafio foi praticar mais as propriedades do CSS Flexbox embora tive mais dificuldade em utilizar numa mesma tag, a cor e imagem num mesmo espaço e transicionando elas através do :hover.
-
 
 ## Deploy
 
