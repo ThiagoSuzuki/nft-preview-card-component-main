@@ -105,6 +105,7 @@ section {
 h1.card__title {
     color: var(--white);
     margin: 1rem 0;
+    font-weight: 400;
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
@@ -117,7 +118,7 @@ h1.card__title:hover {
 p.card__text {
     color: var(--primary);
     padding-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
 }
 
