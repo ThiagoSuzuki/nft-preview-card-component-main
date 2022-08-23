@@ -20,6 +20,11 @@
 body {
     font-family: var(--main-font);
     background-color: var(--mainBG);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 a {
