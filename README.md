@@ -22,7 +22,7 @@
 
 # Sobre o projeto
 
-Este desafio é ideal para iniciantes com HTML e CSS que queiram praticar as propriedades do Flexbox e também treinar a parte responsiva do card, adaptando-a dem diferentes telas. O desafio era replicar o mais fielmente o design original, podendo utilizar qualquer ferramenta que souber trabalhar.
+Este desafio é ideal para iniciantes com HTML/CSS que queiram praticar as propriedades do Flexbox e também treinar a parte responsiva do card, adaptando-a em diferentes telas. O desafio era replicar o mais fielmente o design original, podendo utilizar qualquer ferramenta que souber trabalhar.
 
 ## Construído com
 - HTML5
